@@ -1,0 +1,6 @@
+@EdutPlatform_HostAddress = http://localhost:5239
+
+GET {{EdutPlatform_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
