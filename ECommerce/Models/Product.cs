@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ECommerce.Models
 {
@@ -12,7 +13,9 @@ namespace ECommerce.Models
 
         //navigationa lpropery
         [ForeignKey(nameof(CategoryId))]
-        public Category Category { get; set; }
+        public virtual Category Category { get; set; }
         public int StockQuantity { get; set; }
+        [Timestamp]
+        public byte[] RowVersion { get; set; }
     }
 }

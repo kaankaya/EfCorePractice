@@ -10,7 +10,8 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddDbContext<ECommerceContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("Default")));
+builder.Services.AddDbContext<ECommerceContext>(options => options.UseLazyLoadingProxies()
+                                                                  .UseSqlServer(builder.Configuration.GetConnectionString("Default")));
 
 
 var app = builder.Build();
