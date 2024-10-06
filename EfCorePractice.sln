@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeFirstRelation", "CodeFi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterMediateTablePractic", "InterMediateTablePractic\InterMediateTablePractic.csproj", "{BFA0FE77-7CDD-451C-B877-1FB15912BD9B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EdutPlatform", "EdutPlatform\EdutPlatform.csproj", "{7C2793D0-9DF3-416B-9D47-DC9D2B091723}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EdutPlatform", "EdutPlatform\EdutPlatform.csproj", "{7C2793D0-9DF3-416B-9D47-DC9D2B091723}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce", "ECommerce\ECommerce.csproj", "{7535FB92-8362-46B8-A7B1-F5479795BBA6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{7C2793D0-9DF3-416B-9D47-DC9D2B091723}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C2793D0-9DF3-416B-9D47-DC9D2B091723}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C2793D0-9DF3-416B-9D47-DC9D2B091723}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7535FB92-8362-46B8-A7B1-F5479795BBA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7535FB92-8362-46B8-A7B1-F5479795BBA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7535FB92-8362-46B8-A7B1-F5479795BBA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7535FB92-8362-46B8-A7B1-F5479795BBA6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
